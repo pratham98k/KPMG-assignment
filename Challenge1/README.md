@@ -1,12 +1,12 @@
 
-## Goal is to create three tier application architecture in Azure with secure infracture.
+## Goal is to create secure three tier application infrastructure architecture in Azure.
 
-Below are list of resources are used in this archeture.
+Below are list of resources are used in this architecture.
 
-Resource Group
-Application gateway
-VM (Ubuntu 16.04 LTS) Apache, PHP
-managed MYsql DB
+Resource Group,
+Application gateway,
+VM (Ubuntu 16.04 LTS) Apache, PHP,
+managed MYsql DB,
 Keyvault - store DB password, Ubuntu Admin public key and private key.
 
 Note: application gateway having capablity to provide layer 7 loadbalancing and provide funcinility to configure SSL cert and Web application firewall.
@@ -19,7 +19,17 @@ in this demo single VM is added behind application gateway, But we can add virtu
 
 To provision this infracture Terraform (Infrastructure as code) is used with latest Version 1.x 
 
+Install Install the Azure CLI & Terraform 1.x 
 
+Using your CLI, run ``` az login ```
+
+1. Run ``` terraform init ```
+2. Run ``` terraform plan ```
+3. Run ``` terraform apply -auto-approve ```
+
+Based on requirment variables can updated variables.auto.tfvars
+
+You're done!
 
 Below is Snapshoot of Resource Group created created in Azure Cloud
 
