@@ -13,7 +13,9 @@ Note: application gateway having capablity to provide layer 7 loadbalancing and 
 
 in this demo single VM is added behind application gateway, But we can add virtual machine scale sets to serve application demand.
 
-[![Image](https://github.com/pratham98k/KPMG-assignment/blob/main/Challenge1/KPMG-assignment-diagram/three-tier-application-architecture.JPG "Three Tier secure infra architecture approch" )
+digram can be found https://app.cloudskew.com/viewer/97df19e7-ec4a-4c7b-9122-bd78e4c31670
+
+[![Image](https://github.com/pratham98k/KPMG-assignment/blob/main/Challenge1/KPMG-assignment-diagram/three-tier-application-architecture.JPG)
 
 
 
@@ -40,5 +42,3 @@ deployed sample application can be accessed using Curl
 
 
  [![Image](https://github.com/pratham98k/KPMG-assignment/blob/main/Challenge1/KPMG-assignment-diagram/app-hello.JPG)
-
- 
